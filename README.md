@@ -2,7 +2,7 @@
 The School of AI repo for END 2.0 Session 1
 
 # What is a neural network neuron?
-It is a mathematical implementation of a biological neuron. This is represented as model where in the input data is combined with weights and biases to pass on the input to the next layer and compute an output for it. These inputs are  converted into outputs using a  mathematical function which is called an activation function.
+It is a mathematical implementation of a biological neuron. This is represented as a model where the input data is combined with weights and biases to pass it on as input to the next layer and compute an output for it. These inputs are converted into outputs using a  mathematical function which is called an activation function.
 
 # What is the use of the learning rate?
 Learning rate is a hyperparameter that can be configured to train a neural network. It should be in the range (0,1); excluding the outer-bounds. Count of training epochs will be larger for a very small learning-rate while a larger learning-rate can provide a suboptimal solution in very few epochs as there will be rapid change in change in weights.
