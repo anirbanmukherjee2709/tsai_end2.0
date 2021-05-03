@@ -9,7 +9,11 @@ where Xi is the neuron; Wi is the associated weight; b -s the bias
 
 
 # What is the use of the learning rate?
-Learning rate is a hyperparameter that can be configured to train a neural network. It should be in the range (0,1); excluding the outer-bounds. Count of training epochs will be larger for a very small learning-rate while a larger learning-rate can provide a suboptimal solution in very few epochs as there will be rapid change in change in weights.
+Learning rate is a hyperparameter that can be configured to train a neural network. It should be in the range (0,1); excluding the outer-bounds. Count of training epochs will be larger for a very small learning-rate while a larger learning-rate can provide a suboptimal solution (spiraling out of the local minimum) in very few epochs as there will be rapid change in change in weights.
+
+![](Learning_rate.png)
+
+where LR is the learning rate; W's represent the weights. 
 
 # How are weights initialized?
 Weight initialization is a procedure to set the weights of a neural network to small random values that define the starting point for the optimization (learning or training) of the neural network model. There are multiple ways to initialise weights such as:
@@ -36,6 +40,8 @@ Generally, a cost or loss function tells the optimisation algorithm how 'good' t
 
 # What is the "chain rule" in gradient flow?
 Chain rule in gradient flow is the partial differentiation of the loss/cost function with respect to the weights and biases of individual neurons. Here we assume that, when the weight/bias on one neuron is modified, the weights/biases of other neurons are constant.
+
+
 
 
 
