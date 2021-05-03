@@ -31,3 +31,7 @@ Generally, a loss function tells the optimisation algorithm how 'good' the predi
 
 
 # What is the "chain rule" in gradient flow?
+
+
+
+
