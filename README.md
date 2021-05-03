@@ -31,7 +31,7 @@ weights_init(model)
 ```
 
 # What is "loss" in a neural network?
-Generally, a loss function tells the optimisation algorithm how 'good' the predictions are by seeing the difference between actual and predicted values. These losses are used as a feedback signal, thus updating the weights and biases to have a lower loss in the next epoch. 
+Generally, a cost or loss function tells the optimisation algorithm how 'good' the predictions are by seeing the difference between actual and predicted values. These losses are used as a feedback signal, thus updating the weights and biases to have a lower loss in the next epoch as it gives us the measure of mistakes made by the network in predicting the output. Thus, Loss or error is the quantitative measure of deviation between the predicted output and the actual output in anticipation. 
 
 
 # What is the "chain rule" in gradient flow?
