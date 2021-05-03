@@ -39,9 +39,18 @@ Generally, a cost or loss function tells the optimisation algorithm how 'good' t
 
 
 # What is the "chain rule" in gradient flow?
-Chain rule in gradient flow is the partial differentiation of the loss/cost function with respect to the weights and biases of individual neurons. Here we assume that, when the weight/bias on one neuron is modified, the weights/biases of other neurons are constant.
+Chain rule in gradient flow is the partial differentiation of the loss/cost function with respect to the weights and biases of individual neurons. Here we assume that, when the weight/bias on one neuron is modified, the weights/biases of other neurons are constant. The gradient of a defined neuron, z, 
 
+![](neuron_2)
 
+will be given as
 
+![](Chain_rule_1.png)
+
+The chain rule for the error(Loss function) with respect to the weight of neuron 1 in input layer to the 1st neuron in the hidden layer is given by:
+
+![](chain_rule_2.gif)
+
+We assume that we have only one hidden layer with multiple neurons and only one neuron in the output layer.
 
 
